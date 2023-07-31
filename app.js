@@ -74,7 +74,7 @@ numKeys.forEach(key => {
         }else {
             keyId = parseFloat(key.id);
         }
-        if(onScreen.textContent.toString().length < 10){
+        if(onScreen.textContent.toString().length < 8){
             if (onScreen.textContent === "0" && keyId=== "."){
                 onScreen.textContent = "0.";
             }else {
